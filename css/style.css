@@ -1,0 +1,42 @@
+body {
+    font-family: 'Proxima Nova';
+}
+
+/*Start footer section */
+footer {
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 370px;
+    margin-left: 370px;
+}
+.footer-box__text-one {
+    color: #464646;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+}
+.footer-box__text-two {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10.8px;
+    position: relative;
+}
+.footer-box__text-two:after {
+    position: absolute;
+    content:"";
+    width: 20%;
+    height: 5%;
+    background-color: #bea67c;
+}
+.footer-box__text-three {
+    color: #464646;
+    font-size: 15px;
+    letter-spacing: 0.38px;
+}
+/*End footer section */
