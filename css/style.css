@@ -26,6 +26,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: 10.8px;
     position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .footer-box__text-two:after {
     position: absolute;
