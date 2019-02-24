@@ -1,0 +1,42 @@
+body {
+    font-family: 'Proxima Nova';
+}
+/*Start About section*/
+.About {
+    display: flex;
+    margin-right: 370px;
+    margin-left: 370px;
+    margin-top: 138px;
+}
+.About__img{
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+    margin-right: 95px;
+}
+.About-text__title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.36px;
+    position: relative;
+}
+.About-text__title:before{
+    content: "";
+    width: 25%;
+    height: 5%;
+    color: #000;
+    position: absolute;
+}
+.About-text__description {
+    color: #464646;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.38px;
+}
+.About-text__link {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+/*End About section*/
