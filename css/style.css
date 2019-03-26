@@ -8,11 +8,26 @@ body {
     margin-left: 370px;
     margin-top: 138px;
 }
-.About__img{
-    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+.About__Img-block {
+    position: relative;
     margin-right: 95px;
 }
+.Img-block__img {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+}
+.Img-block__translucent-text {
+    width: 145%;
+    color: #d0d0d0;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 170px;
+    font-weight: 700;
+    top: 30%;
+    right: 25%;
+    opacity: 0.2;
+ }
 .About__About-text {
+    position: relative;
     margin-right: 135px;
     margin-top: 100px;
 }
@@ -32,6 +47,17 @@ body {
     position: absolute;
     top: 40%;
     left: -45%;
+}
+
+.About-text__translucent-text {
+    color: #d0d0d0;
+    text-transform: uppercase;
+    font-size: 395px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 110%;
+    left: 63%;
+    opacity: 0.2;
 }
 .About-text__description {
     color: #464646;
